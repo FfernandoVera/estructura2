@@ -1,0 +1,83 @@
+body{
+	background: green;
+	
+}
+#contenedor{
+		/*los px son medidas en pixeles*/
+		/*los 0px auto son para centrar los objetos*/
+		margin: 0px auto;
+		border: 1px solid white;
+		/*ancho*/
+		width: 80%;
+		/*alto*/
+		height: 650px;
+		/*bordes curvos*/
+		border-radius: 0px 5px 10px 15px;
+	}
+h1{
+	color: white;
+}
+header{
+	border: 1px solid red;
+}
+section{
+	border: 1px solid black;
+	height: 570px;
+}
+article{
+	border: 1px solid yellow;
+	width: 60%;
+	height: 420px;
+	text-align: center;
+	float: left;
+	margin: 20px;
+}
+aside{
+	border: 1px solid yellow;
+	width: 30%;
+	height: 420px;
+	text-align: center;
+	float: right;
+	margin: 20px;
+}
+footer{
+	border: 1px solid red;
+	text-align: center;
+	height: 40px;
+	color: violet;
+}
+nav{
+	width: 35%;
+	height: 100px;
+	float: right;
+	border: 1px solid orange;
+}
+nav ul{
+	margin-top: 70px;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	border-radius: 0px 10px 0px 10px;
+	margin-top: 10px;
+}
+a{
+	padding: 3px;
+}
+#logo{
+	width: 9%;
+	height: 100px;
+	border: 1px solid red;
+	float: left;
+}
+#slogan{
+	float: left;
+	width: 50%;
+	height: 100px;
+	text-align: center;
+	border: 1px solid red;
+}
